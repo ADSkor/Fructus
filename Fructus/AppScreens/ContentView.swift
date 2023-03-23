@@ -17,11 +17,16 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(fruits.sorted(by: {$0.title<$1.title} )) { fruit in
-                    FruitRowView(fruit: fruit)
-                        .padding(.vertical, 4)
+                    NavigationLink(destination: FruitDetailView(fruit: fruit)) {
+                        FruitRowView(fruit: fruit)
+                            .padding(.vertical, 4)
+                            .ignoresSafeArea()
+                    }
                 }
             }
             .navigationTitle("Fruits")
+//            .padding(.leading, -16)
+//            .padding(.trailing, -20)
         }//End of NavigationView
     }
 }
