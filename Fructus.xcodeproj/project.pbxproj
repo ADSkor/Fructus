@@ -20,6 +20,7 @@
 		1EE9212E2995116900334327 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9212D2995116900334327 /* FruitCardView.swift */; };
 		1EE92130299CF97C00334327 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9212F299CF97C00334327 /* StartButtonView.swift */; };
 		1EE92132299D012300334327 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE92131299D012300334327 /* OnboardingView.swift */; };
+		1EEB282829CD962D0026D06A /* FruitNutriansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB282729CD962D0026D06A /* FruitNutriansView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		1EE9212D2995116900334327 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		1EE9212F299CF97C00334327 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		1EE92131299D012300334327 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		1EEB282729CD962D0026D06A /* FruitNutriansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutriansView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				1E96A55229CC5DA00026AAE3 /* FruitRowView.swift */,
 				1E96A55629CC76460026AAE3 /* FruitHeaderView.swift */,
 				1E96A55829CC79370026AAE3 /* SourceLinkView.swift */,
+				1EEB282729CD962D0026D06A /* FruitNutriansView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				1EE92132299D012300334327 /* OnboardingView.swift in Sources */,
 				1E18F97C29A3AACF0006BEA9 /* FruitModel.swift in Sources */,
 				1EE9211E29950C9F00334327 /* FructusApp.swift in Sources */,
+				1EEB282829CD962D0026D06A /* FruitNutriansView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
