@@ -17,16 +17,18 @@ struct SourceLinkView: View {
                 Text("Search for more info:")
                 Spacer()
                 VStack {
-                    HStack {
-                        Link("Google", destination: URL(string: "https://google.com/search?q=\(fruit.title)+fruit")!)
-                        Image(systemName: "arrow.up.right.square")
-                    }
+                    LinkDestination(
+                        fruit: fruit,
+                        imageSystemName: "arrow.up.right.square",
+                        linkName: "Google",
+                        url: URL(string: "https://google.com/search?q=\(fruit.title)+fruit")!)
                     Spacer()
                         .frame(height: 20)
-                    HStack {
-                        Link("Wikipedia", destination: URL(string: "https://Wikipedia.com/wiki/\(fruit.title)")!)
-                        Image(systemName: "arrow.up.right.square")
-                    }
+                    LinkDestination(
+                        fruit: fruit,
+                        imageSystemName: "arrow.up.right.square",
+                        linkName: "Wikipedia",
+                        url: URL(string: "https://Wikipedia.com/wiki/\(fruit.title)")!)
                 }
                 
             }

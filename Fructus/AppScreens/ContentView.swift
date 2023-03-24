@@ -11,6 +11,7 @@ struct ContentView: View {
     //MARK: - Properties
     
     var fruits: [Fruit] = fruitsData
+    @State private var isShowingSettings: Bool = false
     
     //MARK: - Body
     var body: some View {
@@ -25,8 +26,19 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Fruits")
-//            .padding(.leading, -16)
-//            .padding(.trailing, -20)
+            .toolbar {
+                Button(action: {
+                    isShowingSettings = true
+                }) {
+                    Image(systemName: "slider.horizontal.3")
+                }
+                .sheet(isPresented: $isShowingSettings) {
+                    SettingsView()
+                }
+            }
+            .padding(.leading, -16)
+            .padding(.trailing, -20)
+            .edgesIgnoringSafeArea(.bottom)
         }//End of NavigationView
     }
 }
