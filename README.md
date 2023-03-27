@@ -1,4 +1,4 @@
 # Fructus-SwiftUI
 Fruits info
 
-![Fructus_AdobeExpress](https://user-images.githubusercontent.com/39741772/227838546-cb7c5f66-02f4-4130-8f06-a622f55342f7.gif)
+![fructusBig_AdobeExpress](https://user-images.githubusercontent.com/39741772/227839152-7f9da418-c5a9-4529-a1e2-bc4332a3dba6.gif)
